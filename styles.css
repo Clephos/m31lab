@@ -23,17 +23,27 @@ a {
    HEADER / HERO SECTION
 -----------------------------------------*/
 .hero {
-  background-color: #0c0c0c;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem 0;
+  padding: 0.1rem 0; /* equal top and bottom padding */
 }
 
-.logo {
-  height: 200px;
-  max-width: 100%;
+.header-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* Logo Styling */
+.logo {
+  height: 200px; /* or your preferred size */
+  margin: 0;
+  padding: 0;
+  display: block; /* removes small inline gap */
+}
+
 
 /* --------------------------------------
    MAIN CONTENT WRAPPER
