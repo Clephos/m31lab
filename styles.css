@@ -57,7 +57,7 @@ a {
    MAIN CONTENT WRAPPER
 -----------------------------------------*/
 .content {
-  padding: 0.5rem 1rem 3rem 1rem;
+  padding: 0rem 1rem 3rem 1rem;
   /* top | right | bottom | left */
   max-width: 800px;
   margin: 0 auto;
