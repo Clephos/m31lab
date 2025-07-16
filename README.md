@@ -23,8 +23,9 @@ Welcome to the official website for **M31Lab LLC**, a Puerto Rican startup inspi
 
 ## 🛠️ Features
 
-- Minimal HTML/CSS structure
-- Black header banner with centered logo
+- White header banner with centered logo and divider
+- Space-themed near-black background
+- Light frosted project boxes with black text
 - Responsive layout with clear sectioning
 - Custom domain support (`m31lab.io`)
 - GitHub Pages deployment
@@ -58,6 +59,15 @@ To configure the custom domain via your DNS provider (e.g., Porkbun):
   ```
   m31lab.io
   ```
+
+---
+
+## 🎨 Design Highlights
+
+- Minimalist design inspired by space aesthetics
+- Dark background with frosted light containers for content focus
+- Clean footer that spans full width with clear separation
+- Layout visually unified across all sections
 
 ---
 

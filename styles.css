@@ -10,8 +10,8 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #222;
+  background-color: #202020; /* near black */
+  color: #ffffff; /* white text */
 }
 
 a {
@@ -36,6 +36,12 @@ a {
   align-items: center;
 }
 
+.header-divider {
+  height: 4px;
+  background-color: #D3D3D3;
+  width: 100%;
+}
+
 /* Logo Styling */
 .logo {
   height: 200px; /* or your preferred size */
@@ -43,7 +49,6 @@ a {
   padding: 0;
   display: block; /* removes small inline gap */
 }
-
 
 /* --------------------------------------
    MAIN CONTENT WRAPPER
@@ -79,43 +84,6 @@ a {
 }
 
 /* --------------------------------------
-   PROJECT SECTION (Kendo Go!)
------------------------------------------*/
-.project {
-  margin-bottom: 2rem;
-}
-
-.project h2 {
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-}
-
-/* --------------------------------------
-   CONTACT SECTION
------------------------------------------*/
-.contact {
-  text-align: center;
-  padding: 2rem 1rem;
-  background-color: #f0f0f0;
-  margin-top: 2rem;
-  border-radius: 12px;
-}
-
-.contact h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
-/* --------------------------------------
    DISCLAIMER SECTION
 -----------------------------------------*/
 .disclaimer {
@@ -135,7 +103,8 @@ a {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  color: #555;
+  color: black;
+  background-color: white;
   padding: 1rem 0;
 }
 
@@ -150,4 +119,16 @@ a {
 -----------------------------------------*/
 .spacer {
   height: 1rem;
+}
+
+/* --------------------------------------
+   BOXED SECTION UTILITY
+-----------------------------------------*/
+.boxed-section {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 }
