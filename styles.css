@@ -89,15 +89,15 @@ a {
 /* --------------------------------------
    DISCLAIMER SECTION
 -----------------------------------------*/
-.disclaimer {
-  background-color: #fff3cd;
-  color: #856404;
+.construction-banner {
+  background: #ffcc00;
+  color: #000;
   text-align: center;
-  padding: 1rem;
-  margin: 2rem 0;
-  border: 1px solid #ffeeba;
-  border-radius: 8px;
-  font-size: 0.95rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 /* --------------------------------------
