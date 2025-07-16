@@ -68,6 +68,7 @@ To configure the custom domain via your DNS provider (e.g., Porkbun):
 - Dark background with frosted light containers for content focus
 - Clean footer that spans full width with clear separation
 - Layout visually unified across all sections
+- Uses [Inter](https://fonts.google.com/specimen/Inter) font for a modern, readable typeface
 
 ---
 

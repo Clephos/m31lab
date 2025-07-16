@@ -1,3 +1,6 @@
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 /* --------------------------------------
    RESET & BASE STYLES
 -----------------------------------------*/
@@ -8,7 +11,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   background-color: #202020; /* near black */
   color: #ffffff; /* white text */
