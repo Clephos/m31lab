@@ -87,14 +87,17 @@ a {
 }
 
 /* --------------------------------------
-   DISCLAIMER SECTION
+   CONSTRUCTION SECTION
 -----------------------------------------*/
 .construction-banner {
-  background: #ffcc00;
-  color: #000;
+  background-color: #fff3cd;
+  color: #856404;
   text-align: center;
-  padding: 0.5rem;
-  font-weight: 600;
+  padding: 1rem;
+  margin: 2rem 0;
+  border: 1px solid #ffeeba;
+  border-radius:10px;
+  font-size: 0.95rem;
   position: sticky;
   top: 0;
   z-index: 1000;
