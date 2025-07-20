@@ -57,8 +57,7 @@ a {
    MAIN CONTENT WRAPPER
 -----------------------------------------*/
 .content {
-  padding: 0rem 1rem 3rem 1rem;
-  /* top | right | bottom | left */
+  padding: 2rem 1rem;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -88,20 +87,17 @@ a {
 }
 
 /* --------------------------------------
-   CONSTRUCTION SECTION
+   DISCLAIMER SECTION
 -----------------------------------------*/
-.construction-banner {
+.disclaimer {
   background-color: #fff3cd;
   color: #856404;
   text-align: center;
   padding: 1rem;
   margin: 2rem 0;
   border: 1px solid #ffeeba;
-  border-radius:10px;
+  border-radius: 8px;
   font-size: 0.95rem;
-  position: sticky;
-  top: 1rem;
-  z-index: 1000;
 }
 
 /* --------------------------------------
