@@ -13,18 +13,22 @@
 
   <!-- External stylesheet -->
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Light and dark favicons -->
+  <link rel="icon" href="m31lab-light.ico" media="(prefers-color-scheme: light)" type="image/x-icon" />
+  <link rel="icon" href="m31lab-dark.ico" media="(prefers-color-scheme: dark)" type="image/x-icon" />
 </head>
+
 <body>
 
   <!-- === Header Section with Logo === -->
   <header class="hero">
-  <div class="header-inner">
-    <img src="m31lab.png" alt="M31Lab Logo" class="logo" />
-  </div>
-</header>
+    <div class="header-inner">
+      <img src="m31lab.png" alt="M31Lab Logo" class="logo" />
+    </div>
+  </header>
 
-<div class="header-divider"></div>
-
+  <div class="header-divider"></div>
 
   <!-- === Main Content Container === -->
   <main class="content">
@@ -70,20 +74,24 @@
       </p>
     </section>
 
-    <!-- === Project Section: Kendo Go! App === -->
+    <!-- === Project Section: Pa' Kendo App === -->
     <section class="boxed-section">
       <h3>Current Projects</h3>
       <div class="spacer"></div>
       <p>
-        <strong>Kendo Go!</strong> is our first iOS app, designed for absolute beginners interested in the art of kendo—the Japanese way of the sword. 
-        Whether you're just getting started or want a quick reference at your side, Kendo Go! makes learning accessible, engaging, and fun.
+        <strong>Pa' Kendo</strong> is our first iOS app, designed for absolute beginners interested in the art of kendo—the Japanese way of the sword.
+        Whether you're just getting started or want a quick reference at your side, Pa' Kendo makes learning accessible, engaging, and fun.
       </p>
       <div class="spacer"></div>
-      <p>
-        The app includes a comprehensive glossary with kanji, romaji, English, and phonetic pronunciation for essential kendo terms. 
-        It also helps users learn to count in Japanese using kanji, romaji, and Arabic numerals. A built-in quiz mode offers 
-        interactive learning through randomized questions that test vocabulary and numbers in multiple formats.
-      </p>
+      <h4><u>Features:</u></h4>
+      <div style="margin-left: 1.5em;">
+        <ul style="list-style-type: disc;">
+          <li><strong>Kendo Basics</strong>: A beginner-friendly guide to the art of kendo.</li>
+          <li><strong>Glossary</strong>: Key kendo terms in kanji, romaji, English, and phonetic pronunciation.</li>
+          <li><strong>Japanese Counting</strong>: Learn numbers using kanji, romaji, and Arabic numerals.</li>
+          <li><strong>Quiz Mode</strong>: Test your knowledge with randomized quizzes covering vocabulary and numbers in multiple formats.</li>
+        </ul>
+      </div>
       <div class="spacer"></div>
       <p>Coming Soon!</p>
     </section>
@@ -101,20 +109,28 @@
       </p>   
     </section>
 
-    <!-- === Disclaimer Section: Under Construction Notice === -->
-    <section class="disclaimer">
-      <p>🚧 This website is still under construction. Some features and content may change. Stay tuned!</p>
-    </section>
+  <div class="header-divider"></div>
 
-  </main>
+  <!-- === Footer Section === -->
+  <section class="footer">
+    <p>© 2025 M31Lab LLC · All rights reserved</p>
+    <img src="puerto_rico.PNG" alt="M31Lab Small Logo" class="footer-logo" />
+  </section>
 
-<div class="header-divider"></div>
-
-    <!-- === Footer Section === -->
-    <section class="footer">
-      <p>© 2025 M31Lab LLC · All rights reserved</p>
-      <img src="puerto_rico.png" alt="M31Lab Small Logo" class="footer-logo" />
-    </section>
-
+  <!-- === Pop-up Section === -->  
+  <div id="popup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:1000;">
+    <div style="background:white; color:black; padding:20px; max-width:400px; margin:100px auto; border-radius:8px; text-align:center;">
+      <p>
+        This website is under construction.</br>
+        Features are subject to change.
+      </p>
+      <button onclick="document.getElementById('popup').style.display='none'">OK</button>
+    </div>
+  </div>
+  <script>
+    window.onload = function() {
+      document.getElementById('popup').style.display = 'block';
+    }
+  </script>
 </body>
 </html>
